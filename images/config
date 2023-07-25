@@ -1,0 +1,7 @@
+Host *
+    User *
+    Port 22
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+    ControlMaster auto
+    ControlPath /dev/shm/control
